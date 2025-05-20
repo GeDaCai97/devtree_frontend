@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
 import slugify from "react-slugify";
 import ErrorMessage from "./ErrorMessage";
-import { searchByHandle } from "../api/DevTreeapi";
+import { searchByHandle } from "../api/DevTreeApi";
 import { Link } from "react-router-dom";
 
 export default function SearchForm() {

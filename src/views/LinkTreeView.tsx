@@ -4,7 +4,7 @@ import DevTreeInput from "../components/DevTreeInput"
 import { isValidUrl } from "../utils"
 import { toast } from "sonner"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
-import { updateProfile } from "../api/DevTreeapi"
+import { updateProfile } from "../api/DevTreeApi"
 import { SocialNetwork, User } from "../types"
 
 export default function LinkTreeView() {

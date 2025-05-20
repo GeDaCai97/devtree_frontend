@@ -2,7 +2,7 @@ import { useForm } from 'react-hook-form';
 import { useQueryClient, useMutation } from '@tanstack/react-query';
 import ErrorMessage from '../components/ErrorMessage';
 import { ProfileForm, User } from '../types';
-import { updateProfile, uploadImage } from '../api/DevTreeapi';
+import { updateProfile, uploadImage } from '../api/DevTreeApi';
 import { toast } from 'sonner';
 
 export default function ProfileView() {
